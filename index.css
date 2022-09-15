@@ -1,0 +1,68 @@
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto;
+    column-gap: 50px;
+    background-color: azure;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    filter: drop-shadow(0 0 5px rgb(255, 0, 0));
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 100% 20%;
+}
+img:hover{
+    transform: scale(1.5);
+}
+nav {
+  background-color: black;
+  color: #ddd;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 26px;
+}
+li{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.form{
+    margin: 0% 5% 0% 10%;  
+}
+
+.project h3{
+    text-decoration-line:underline
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.about h2{
+    font-size: 26px;
+}
+a{
+    color: rgb(38, 0, 255);
+}
+a:hover{
+    color: rgb(255, 94, 0);
+}
